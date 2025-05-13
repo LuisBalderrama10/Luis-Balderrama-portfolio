@@ -7,8 +7,8 @@ const NavBar = () => {
     return (
         <section className="d-flex align-items-center justify-content-center text-center hero-section" id="about" style={{ height: "100vh"}}>
             <div>
-                <h1>Sobre mi</h1>
                 <div className="container text-center mt-5">
+                    <h1>Sobre mi</h1>
                     <div className="row align-items-center ">
                         <div className="col">
                             <img src={PerfilMuralla} alt="Perfil" className="img-Luis" />
