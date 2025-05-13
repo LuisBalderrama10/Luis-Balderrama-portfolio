@@ -13,6 +13,11 @@ p {
     font-weight: 300;
 }
 
+.hero-section {
+  padding: 2rem;
+  flex-direction: column;
+}
+
 .button {
     background-color: #1ea608;
     border: #1ea608;
@@ -25,9 +30,31 @@ p {
 }
 
 .img-Luis { 
-    width: 300px;            
+    width: 350px;            
   height: auto;            
-  border-radius: 150px;     
-  object-fit: cover;  
+  border-radius: 300px;     
+  margin-bottom: 1rem;  
 }
 
+/* Media query para celular */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    width: 100% !important;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .button {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  .img-Luis {
+    width: 120px;
+  }
+}

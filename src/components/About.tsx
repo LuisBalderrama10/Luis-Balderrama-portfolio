@@ -10,10 +10,10 @@ const NavBar = () => {
                 <h1>Sobre mi</h1>
                 <div className="container text-center mt-5">
                     <div className="row align-items-center ">
-                        <div className="col" style={{ content: "auto auto", width: "100vh" }}>
+                        <div className="col">
                             <img src={PerfilMuralla} alt="Perfil" className="img-Luis" />
                         </div>  
-                        <div className="col" style={{ content: "auto auto", width: "90vh" }}>
+                        <div className="col">
                             <p>
                             Joven desarrollador con ganas de aprender e innovar, en busca de adaptarme a nuevos ambientes,
                             enfrentar retos y colaborar en equipo. Apasionado por las tecnologías, diseño web e interacción con el usuario.
