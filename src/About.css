@@ -37,7 +37,7 @@ p {
 }
 
 /* Media query para celular */
-@media (max-width: 200px) {
+@media (max-width: 768px) {
   .row {
     flex-direction: column;
   }
