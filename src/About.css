@@ -1,0 +1,33 @@
+h1  {
+    font-size: 45px;
+    font-weight: bold;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.button {
+    background-color: #1ea608;
+    border: #1ea608;
+    padding: 10px;
+    margin: 30px;
+    width: 20vh;
+    color: white;
+    font-size: 17px;
+    border-radius: 15px ;
+}
+
+.img-Luis { 
+    width: 300px;            
+  height: auto;            
+  border-radius: 150px;     
+  object-fit: cover;  
+}
+
