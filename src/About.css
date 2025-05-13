@@ -14,12 +14,8 @@ p {
 }
 
 .hero-section {
-    padding: 2rem;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  padding: 2rem;
+  flex-direction: column;
 }
 
 .button {
