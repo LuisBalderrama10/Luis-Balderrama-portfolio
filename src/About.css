@@ -36,6 +36,26 @@ p {
   margin-bottom: 1rem;  
 }
 
+.scroll-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.scroll-top-button button {
+  background-color: #1ea608;
+  color: white;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+
 /* Media query para celular */
 @media (max-width: 900px) {
   .row {
