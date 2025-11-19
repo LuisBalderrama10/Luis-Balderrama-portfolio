@@ -1,5 +1,5 @@
 import '../About.css';
-import PerfilMuralla from '../assets/Perfil.jpg';
+import PerfilMuralla from '../assets/Fotoperfil.jpg';
 import { FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 const About = () => {    
@@ -12,17 +12,16 @@ const About = () => {
 
         <div className="row align-items-center mt-4">
           <div className="col-12 col-md-6 mb-4">
-            <img src={PerfilMuralla} alt="Perfil" className="img-Luis img-fluid rounded-circle" />
+            <img src={PerfilMuralla} alt="Perfil" className="img-Luis img-fluid " />
           </div>
 
           <div className="col-12 col-md-6">
             <p>
-              Joven desarrollador con ganas de aprender e innovar, en busca de adaptarme a nuevos ambientes,
-              enfrentar retos y colaborar en equipo. Apasionado por las tecnologías, diseño web e interacción con el usuario.
+              Soy un desarrollador web apasionado por crear experiencias digitales claras, modernas y útiles. Me motiva aprender cosas nuevas, asumir retos y trabajar en equipo para transformar ideas en soluciones reales.
               <br /><br />
-              Estudié la carrera de Ingeniería en Sistemas Computacionales con especialidad en software en la Universidad ITESCA en Cajeme, Sonora.
+              Estudié Ingeniería en Sistemas Computacionales con especialidad en software en ITESCA (Cajeme, Sonora), y actualmente busco oportunidades remotas para seguir creciendo como profesional.
               <br /><br />
-              Residente en Ciudad Obregón, Sonora. Buscando trabajo en el área de desarrollo web y software de manera remota.
+              Además del desarrollo, soy deportista y fotógrafo por hobbie, lo que me ha enseñado disciplina, paciencia, enfoque y creatividad: valores que llevo también a mis proyectos.
             </p>
           </div>
         </div>

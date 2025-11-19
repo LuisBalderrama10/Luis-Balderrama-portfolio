@@ -30,11 +30,12 @@ p {
 }
 
 .img-Luis { 
-    width: 350px;            
-  height: auto;            
-  border-radius: 300px;     
-  margin-bottom: 1rem;  
-}
+    width: 200px;            
+    height: 200px;            
+    border-radius: 50px;     
+    margin-bottom: 1rem;  
+    padding: 15px,0px,0px,15px;
+} 
 
 .scroll-top-button {
   position: fixed;

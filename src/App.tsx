@@ -4,7 +4,7 @@ import About from "./components/About"
 import React, { useState } from 'react';
 import { FaArrowUp } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar';
+//import NavBar from './components/NavBar';
 
 
 function App() {
@@ -26,7 +26,6 @@ function App() {
 
   return (
     <div>
-      <NavBar />
       <Hero />
       <aside className="scroll-top-button">
         {showButton && (
