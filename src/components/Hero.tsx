@@ -1,5 +1,6 @@
 import '../Hero.css';
 
+
 const Hero = () => {
     const scrollToAbout = () => {
         const aboutSection = document.getElementById("about");

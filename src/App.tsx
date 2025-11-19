@@ -3,6 +3,9 @@ import Hero from "./components/Hero";
 import About from "./components/About"
 import React, { useState } from 'react';
 import { FaArrowUp } from 'react-icons/fa';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar';
+
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -23,6 +26,7 @@ function App() {
 
   return (
     <div>
+      <NavBar />
       <Hero />
       <aside className="scroll-top-button">
         {showButton && (

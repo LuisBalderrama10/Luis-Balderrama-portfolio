@@ -1,11 +1,25 @@
 const NavBar = () => {
-    return (
-        <div className="container text-center mt-5">
-        <h1 className="display-4 fw-bold"> Hola, Esot es un navbar</h1>
-        <p className="lead">Desarrollador aprendiz y pobre</p>
-        <a href="#proyectos" className="btn btn-primary mt-3">Ver proyectos</a>
-        </div>
-    );
-};
+  return (
+    <nav className="bg-gray-800 p-4">
+        <ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Experiencia en el desarrollo</button>
+            </li>
+            <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Experiencia fuera del desarrollo</button>
+            </li>
+            <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Mi stack</button>
+            </li>
+        </ul>
+        <div className="tab-content" id="pills-tabContent">
+        <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+        <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" style={{tabindex="0"}} >...</div>
+        <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+        <div className="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+</div>
+    </nav>
+  );
+}
 
 export default NavBar;
